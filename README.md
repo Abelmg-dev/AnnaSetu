@@ -36,6 +36,22 @@ AnnaSetu provides a web-based platform to **track, analyze, and reduce food wast
 - Abel Mathew George  
 - Navaneeth Jayakumar
 
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/AnnaSetu.git
+   cd AnnaSetu
+2. Install dependencies
+
+npm install
+
+3. Run the development server
+
+npm start
+
+This creates an optimized production build in the build/ folder
+
 ## 🛠️ Try the Demo
 
 Explore **AnnaSetu** instantly using the hosted web app:  
@@ -45,4 +61,5 @@ Explore **AnnaSetu** instantly using the hosted web app:
 - View **Analytics Dashboard** with trends & charts  
 - Generate **Daily Awareness Messages** ready to share  
 - No login required — demo is ready for judges to explore
+
 
