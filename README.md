@@ -1,4 +1,4 @@
-Project Title: AnnaSetu — Freedom from Hunger
+## Project Title: AnnaSetu — Freedom from Hunger
 
 **Hackathon Project — Independence Day Special (2025)**  
 
@@ -45,3 +45,4 @@ Explore **AnnaSetu** instantly using the hosted web app:
 - View **Analytics Dashboard** with trends & charts  
 - Generate **Daily Awareness Messages** ready to share  
 - No login required — demo is ready for judges to explore
+
