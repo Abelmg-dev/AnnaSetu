@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AnnaSetu — Freedom from Hunger 🇮🇳</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Firebase SDKs (CDN) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore-compat.js"></script>
+
+  <!-- Chart.js for analytics -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🇮🇳 AnnaSetu</h1>
+    <p class="tagline">Freedom from Hunger — Food Wastage Analytics for India</p>
+  </header>
+
+  <main>
+    <!-- LOG FORM -->
+    <section class="card">
+      <h2>Log Today’s Food Waste</h2>
+      <div class="grid">
+        <label>Hotel / Canteen Name
+          <input id="hotelName" placeholder="e.g., Hotel Ashoka" />
+        </label>
+        <label>State (optional)
+          <input id="stateName" placeholder="e.g., Kerala" />
+        </label>
+        <label>Meals Wasted (count)
+          <input id="meals" type="number" min="0" placeholder="e.g., 25" />
+        </label>
+        <label>Meals Served (optional)
+          <input id="served" type="number" min="0" placeholder="e.g., 250" />
+        </label>
+        <label>Type
+          <select id="foodType">
+            <option value="veg">Veg</option>
+            <option value="nonveg">Non-veg</option>
+            <option value="mixed">Mixed</option>
+          </select>
+        </label>
+      </div>
+      <div class="row">
+        <button id="btnSubmit">Submit Log</button>
+        <button id="btnDemo">Add Demo Data</button>
+      </div>
+      <p class="hint">Tip: keep it simple. One log per day per hotel is enough for demo.</p>
+    </section>
+
+    <!-- DASHBOARD -->
+    <section class="card">
+      <h2>Dashboard — Today</h2>
+      <div class="stats">
+        <div class="stat">
+          <div class="num" id="totalMeals">0</div>
+          <div class="label">Meals Wasted (India)</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="families">0</div>
+          <div class="label">Equivalent Families Fed*</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="pctWasted">0%</div>
+          <div class="label">% Wasted (avg)</div>
+        </div>
+      </div>
+      <p class="hint">*Assuming 4 meals ≈ 1 family-day.</p>
+      <div class="awareness" id="awarenessMsg">—</div>
+    </section>
+    <!-- NATIONAL AWARENESS MESSAGE (put this AFTER the Dashboard section) -->
+    <section class="card">
+      <h2>National Awareness Message</h2>
+      <textarea id="dailyMsg" readonly rows="3"></textarea>
+      <div class="row">
+        <button id="btnCopy">📋 Copy Message</button>
+      </div>
+    </section>
+  
+
+    <!-- TREND CHART -->
+    <section class="card">
+      <h2>Last 7 Days — India Trend</h2>
+      <canvas id="trendChart" height="110"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <small>Built for an Independence Day hackathon — “No Indian should sleep hungry.”</small>
+  </footer>
+
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
