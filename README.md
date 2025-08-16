@@ -46,3 +46,5 @@ Explore **AnnaSetu** instantly using the hosted web app:
 - Generate **Daily Awareness Messages** ready to share  
 - No login required — demo is ready for judges to explore
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1e9d4807-5d9c-4022-b3fe-f4edf69d2a02" />
+
