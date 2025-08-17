@@ -118,6 +118,10 @@ Explore **AnnaSetu** instantly using the hosted web app:
   - Awareness message auto-generation feature  
   - Testing & debugging of the prototype  
 
+## 📜 License
+This project is licensed under the **MIT License**.  
+
+You are free to use, modify, and distribute this software for educational or personal purposes, provided proper credit is given to the authors.  
 
 
 
