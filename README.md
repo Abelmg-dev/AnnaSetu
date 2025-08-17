@@ -91,6 +91,8 @@ Follow these steps to use **AnnaSetu**:
 
 ## 🛠️ Try the Demo
 
+Demo video link : https://drive.google.com/file/d/1PLgC-rQcnhmGYe7JAEPOztzMC7z6j1ux/view?usp=drivesdk
+
 Explore **AnnaSetu** instantly using the hosted web app:  
 [🔗 Click here to open AnnaSetu](https://abelmg-dev.github.io/AnnaSetu/)
 
