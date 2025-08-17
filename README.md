@@ -87,7 +87,6 @@ Follow these steps to use **AnnaSetu**:
    - If you don’t want to type, just click **"Demo Mode"**.  
    - Sample data will auto-load → dashboard & charts will update instantly.  
 
----
 
 ## 🛠️ Try the Demo
 
@@ -100,6 +99,25 @@ Explore **AnnaSetu** instantly using the hosted web app:
 - View **Analytics Dashboard** with trends & charts  
 - Generate **Daily Awareness Messages** ready to share  
 - No login required — demo is ready for judges to explore
+
+## 👥 Team & Contributions
+
+**Team Name:** **AetherOps**
+
+- **Abel Mathew George**  
+  - Project ideation & theme alignment with Independence Day spirit  
+  - Frontend design (HTML, CSS, UI/UX styling)  
+  - Firebase setup & integration  
+  - GitHub repo creation & deployment via GitHub Pages  
+  - Documentation (README & hackathon submission)  
+
+- **Navaneeth Jayakumar**  
+  - Backend logic (JavaScript functionality, data flow)  
+  - Firestore database structure (wasteLogs collection setup)  
+  - Analytics & Dashboard (Chart.js integration, percentage calculations)  
+  - Awareness message auto-generation feature  
+  - Testing & debugging of the prototype  
+
 
 
 
