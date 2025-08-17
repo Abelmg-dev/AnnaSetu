@@ -1,4 +1,4 @@
-se## Project Title: AnnaSetu — Freedom from Hunger
+# Project Title: AnnaSetu — Freedom from Hunger
 
 **Hackathon Project — Independence Day Special (2025)**  
 
