@@ -52,6 +52,43 @@ npm start
 
 This creates an optimized production build in the build/ folder
 
+## 🛠 Usage Instructions
+
+Follow these steps to use **AnnaSetu**:
+
+1. **Open the Web App**  
+   👉 [Live Demo Link](https://abelmg-dev.github.io/AnnaSetu/)  
+   *(No installation required — works in browser)*
+
+2. **Log Food Waste**  
+   - Go to the **"Add Entry"** section.  
+   - Enter:
+     - Hotel / Canteen Name
+     - State
+     - Meals Served  
+     - Meals Wasted  
+     - Type of food
+   - Click **Submit log** → data is saved in Firebase.  
+
+3. **View Analytics**  
+   - The dashboard instantly updates to show:  
+     - ✅ Total meals wasted today  
+     - ✅ % of meals wasted  
+     - ✅ Number of families that could have been fed  
+   - Trend chart shows **last 7 days of data**.  
+
+4. **Awareness Message**  
+   - As soon as you submit food waste data, the app **automatically generates a daily awareness message**.  
+   - Example:  
+     > *“Today India wasted food enough to feed 5,000 families. Let’s pledge to reduce wastage 🇮🇳”*  
+   - You can **copy this message** and share via SMS/WhatsApp/Social Media.  
+
+5. **Demo Mode (For Judges)**  
+   - If you don’t want to type, just click **"Demo Mode"**.  
+   - Sample data will auto-load → dashboard & charts will update instantly.  
+
+---
+
 ## 🛠️ Try the Demo
 
 Explore **AnnaSetu** instantly using the hosted web app:  
